@@ -47,7 +47,7 @@
             const [messages, setMessages] = useState<Message[]>(() => {
                 const saved = localStorage.getItem('kavi_chat_v5');
                 return saved ? JSON.parse(saved) : [
-                    { role: 'bot', text: "Hey Ryan! ✨ I'm all set up and ready to go. Is Kavya-sis around? I bet she's jealous of my new website! Hehe.", emotion: 'Happy' }
+                    { role: 'bot', text: "Hey Ryan! ✨ I'm all set up and ready to go. Is Kavya-sis around? I bet she's jealous of my new website. Well be sure to give her Ice-cream", emotion: 'Happy' }
                 ];
             });
 
